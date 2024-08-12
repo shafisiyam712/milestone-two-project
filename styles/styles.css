@@ -59,7 +59,7 @@ h5{
 /* nav bar */
 .navbar{
     /* max-width: 80%; */
-    max-width: 1440px;
+    max-width: 1366px;
     height: 43px;
      /* border: 2px solid red;  */
     margin: 0 7rem;
@@ -99,8 +99,8 @@ margin-left: -25px;
 }
 .title{
     font-size: 36px;
-    font-weight: 700;
-    color: rgb(230, 83, 60);;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
 }
 /* header banner section */
 .banner{
@@ -380,6 +380,69 @@ input,select{
     top: 83%;
     left: 5%;
 }
+/* footer section */
+footer{
+    margin-top: 100px;
+    width: auto;
+    height: 520px;
+    background-color: rgb(33, 32, 32);
+}
+.footer-container{
+    width: auto;
+    height: 80%;
+    margin: 0 8rem;
+    /* border: 2px solid white;  */
+}
+.fitness{
+    width: 36%;
+    height:100%;
+}
+.get{
+    width: 32%;
+    height: 100%;
+}
+.get >h3{
+    color: white;
+    font-size: 28px;
+    margin-top: 83px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+.get .paragraph{
+    margin-left: 120px;
+}
+.get2{
+    width: 32%;
+    height: 100%;
+}
+.get2 >h3{
+    color: white;
+    font-size: 28px;
+    margin-top: 83px;
+    margin-bottom: 40px;
+    margin-left: 170px;
+}
+.get2 .paragraph{
+    margin-left: 170px;
+}
+hr{
+   margin: 30px 8rem;
+  /* color: rgba(255, 255, 255, 0.5); */
+  margin-bottom: 25px;
+}
+.end{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.fitness >h1{
+    font-size: 70px;
+    font-weight: 800;
+    color:  rgb(230, 83, 60);
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
 
 /* media quary for mobile device */
 
@@ -562,4 +625,72 @@ input,select{
     .pic-line{
         font-size: 22px;
     }
+
+
+    /* footer */
+    footer{
+        margin-top: 50px;
+        width: auto;
+        height: 900px;
+    }
+    .footer-container{
+        width: auto;
+        height: 80%;
+        margin: 0 1rem;
+        flex-direction: column;
+    }
+    .fitness{
+        width: auto;
+        height:36%;
+        margin-left: 20px;
+    }
+    .get{
+        width: auto;
+        height: 32%;
+        margin-top: -35px;
+    }
+    .get >h3{
+        color: white;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .get .paragraph{
+        margin-left: 20px;
+    }
+    .get2{
+        width: auto;
+        height: 32%;
+        margin-top: -5px;
+    }
+    .get2 >h3{
+        color: white;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .get2 .paragraph{
+        margin-left: 20px;
+    }
+    hr{
+       margin: 80px 1rem;
+       margin-bottom: 40px;
+      /* color: rgba(255, 255, 255, 0.5); */
+    }
+    .end{
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+    }
+    .fitness >h1{
+        font-size: 70px;
+        font-weight: 800;
+        color:  rgb(230, 83, 60);
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    
 }
