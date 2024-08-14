@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-/* font added */
+                    /* font added */
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -17,7 +18,9 @@
     font-weight: 600;
     font-style: normal;
   }
-/* shared styles */
+
+                    /* shared styles */
+
 *{
     margin: 0;
 } 
@@ -49,7 +52,8 @@ h5{
     cursor: pointer;
 }
 
-/* header section */
+                    /* header section */
+
 .header{
     margin-top: 0;
     max-width: 100%;
@@ -60,7 +64,7 @@ h5{
     rgb(119,119,119) 200%,
     rgb(17,17,17)); 
 }
-/* nav bar */
+                /* nav bar */
 .navbar{
     /* max-width: 80%; */
     max-width: 1366px;
@@ -213,8 +217,10 @@ justify-content: space-between;
     border-radius: 50%;
     background-color:rgb(230, 83, 60); 
 }
-/* header section ends */
-/* habit section starts */
+
+                        /* header section ends */
+                        /* habit section starts */
+
 .habit{
     /* max-width: 1440px; */
     height: 480px;
@@ -245,7 +251,9 @@ justify-content: space-between;
    text-align: center;
    /* gap: 20px; */
 }
-/* run section starts  */
+
+                        /* run section starts  */
+
 .run{
     /* width: 100%; */
     height: 400px;
@@ -257,6 +265,7 @@ justify-content: space-between;
     background: linear-gradient( 180deg rgba(0, 0, 0, 0));
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 70px;
 }
 .run-img img{
     height: 320px;
@@ -268,8 +277,53 @@ justify-content: space-between;
     margin-bottom: 10px;
 }
 
+                        /* extra section starts */
 
-/* bmi section starts */
+.extra-headline{
+    width: 66%;
+    margin: 0 auto;
+    /* border: 2px solid red;  */
+     text-align: center; 
+     margin-bottom: 50px;
+}
+.extra-headline p{
+    margin-top: 20px;
+}
+.extra{
+    height: 630px;
+    padding: 20px;
+    /* border: 2px solid white;  */
+    border-radius: 1rem;
+    background-color: rgb(33, 32, 32);
+   margin: 0 8rem;
+   margin-bottom: 70px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+   gap: 30px;
+}
+.ex1 img,.ex2 img,.ex3 img,.ex4 img,.ex5 img,.ex6 img{
+    margin: 10px 0;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+    filter: brightness(60%);
+}
+.ex1,.ex2,.ex3,.ex4,.ex5,.ex6{
+   position: relative;
+}
+
+.ex-line{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 5%;
+}
+
+                    /* bmi section starts */
+
 .bmi-headline{
     max-width:45%;
     margin: 0 auto;
@@ -350,7 +404,8 @@ option{
     margin-left: 8rem; 
 }
 
-/* meet your team section starts */
+                /* meet your team section starts */
+
 .team-headline{
     width: 66%;
     margin: 0 auto;
@@ -398,7 +453,9 @@ option{
     top: 83%;
     left: 5%;
 }
-/* footer section */
+
+                        /* footer section */
+
 footer{
     margin-top: 100px;
     width: auto;
@@ -463,7 +520,9 @@ hr{
     margin-bottom: 40px;
 }
 
-/* media quary for mobile device */
+
+                    /* media quary for mobile device */
+
 
 @media screen and (max-width:576px){
     .show{
@@ -499,17 +558,12 @@ hr{
     }
     .banner >.banner-img {
         max-width: auto;
-        /* height: 40%; */
-        /* border: solid 1px white; */
         margin-left: 10px;
     }
     
     .banner-text{
         width: 300px; 
-        /* width: auto; */
         margin-left: 20px;
-        /* height: 100%; */
-        /* border: solid 1px red; */
     }
     .banner-btn{
         display: flex;
@@ -519,7 +573,6 @@ hr{
         width: 150px;
     }
      .banner .banner-img{
-        /* margin-left: 2rem; */
         width: 60%;
         height: 100%;
     }
@@ -558,7 +611,9 @@ hr{
     .banner-card2 >.paragraph{
         font-size: 12px;
     }
-    /* habit section */
+
+                        /* habit section */
+
     .habit{
         height: 1380px;
         margin: 0;
@@ -576,7 +631,8 @@ hr{
         font-size: 30px;
     }
 
-    /* run section */
+                        /* run section */
+
     .run{
         height: 700px;
         margin: 20px;
@@ -590,8 +646,30 @@ hr{
 
     }
 
+                    /* extra section */
 
-/* bmi section */
+.extra-headline{
+    width: 90%; 
+     margin-bottom: 50px; 
+     margin-top: 70px;
+}
+.extra{
+    width: auto;
+    height: 1900px;
+    border-radius: 1rem;
+   margin: 0 1rem;
+   margin-bottom: 70px;
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 15px;
+}
+.ex-line{
+    font-size: 22px;
+        top: 80%;
+        left: 7%;
+}
+
+                    /* bmi section */
 
     .bmi-headline{
         max-width:100%;
@@ -644,7 +722,9 @@ hr{
     width: 310px;
     margin-bottom: 15px;
 }
-/* team section */
+
+                    /* team section */
+
     .team-headline{
         width: 90%; 
          margin-bottom: 50px; 
@@ -676,7 +756,8 @@ hr{
         order: 4;
     }
 
-    /* footer */
+                     /* footer */
+
     footer{
         margin-top: 50px;
         width: auto;
