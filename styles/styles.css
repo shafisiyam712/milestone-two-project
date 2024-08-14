@@ -27,7 +27,6 @@
 .inter-font{
     max-width: 1366px;
      background-color: black; 
-    /* border: 3px solid red; */
 }
 .display-flex{
     display: flex;
@@ -69,7 +68,6 @@ h5{
     /* max-width: 80%; */
     max-width: 1366px;
     height: 43px;
-     /* border: 2px solid red;    */
     margin: 0 7rem;
      margin-top: 70px; 
     justify-content: space-between;
@@ -111,12 +109,13 @@ margin-left: -25px;
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
-/* header banner section */
+
+            /* header banner section */
+
 .banner{
     /* max-width: 100%; */
     max-width: 1366px;   
 height: 552px;
- /* border: 2px solid red;    */
 margin: 0 7rem;
 margin-top: 20px;
 justify-content: space-between;
@@ -154,13 +153,11 @@ justify-content: space-between;
 .banner >.banner-img {
     width: 30%;
     height: 100%;
-    /* position: relative; */
 }
 
 .banner-img img{
     width: 100%;
     height: 100%;
-    /* position: relative; */
 }
 .banner-img{
     position: relative;
@@ -224,14 +221,12 @@ justify-content: space-between;
 .habit{
     /* max-width: 1440px; */
     height: 480px;
-     /* border: 2px solid red;  */
     margin: 0 8rem;
     margin-top: 50px;
     }
 .habit-title{
     width: 66%;
     margin: 0 auto;
-    /* border: 2px solid red;  */
      text-align: center; 
      margin-bottom: 50px;
 }
@@ -243,21 +238,16 @@ justify-content: space-between;
     margin-bottom: 5px;
 }
 .habit-image{
-    /* margin-left: 20px; */
    display: flex;
-   /* justify-content: center; */
    justify-content: space-between; 
    align-items: center;
    text-align: center;
-   /* gap: 20px; */
 }
 
                         /* run section starts  */
 
 .run{
-    /* width: 100%; */
     height: 400px;
-    /* border: 2px solid red; */
     border-radius: 1rem;
      margin: 0 8rem; 
     margin-top: 50px;
@@ -282,7 +272,6 @@ justify-content: space-between;
 .extra-headline{
     width: 66%;
     margin: 0 auto;
-    /* border: 2px solid red;  */
      text-align: center; 
      margin-bottom: 50px;
 }
@@ -292,7 +281,6 @@ justify-content: space-between;
 .extra{
     height: 630px;
     padding: 20px;
-    /* border: 2px solid white;  */
     border-radius: 1rem;
     background-color: rgb(33, 32, 32);
    margin: 0 8rem;
@@ -328,7 +316,6 @@ justify-content: space-between;
     max-width:45%;
     margin: 0 auto;
     text-align: left;
-    /* border: 2px solid red; */
     margin-top: 50px;
     margin-bottom: 80px;
 }
@@ -345,12 +332,10 @@ justify-content: space-between;
 .bmi-chart{
     width: 45%;
     height: 100%;
-     /* border: 2px solid white;  */
 }
 .bmi-calculator{
     width: 55%;
     height: 100%;
-    /* border: 2px solid white;  */
 }
 .bmi-chart h2{
     font-size: 24px;
@@ -409,7 +394,6 @@ option{
 .team-headline{
     width: 66%;
     margin: 0 auto;
-    /* border: 2px solid red;  */
      text-align: center; 
      margin-bottom: 50px;
 }
@@ -419,7 +403,6 @@ option{
 .team{
     height: 630px;
     padding: 20px;
-    /* border: 2px solid white;  */
     border-radius: 1rem;
     background-color: rgb(33, 32, 32);
    margin: 0 8rem;
@@ -466,7 +449,6 @@ footer{
     width: auto;
     height: 80%;
     margin: 0 8rem;
-    /* border: 2px solid white;  */
 }
 .fitness{
     width: 36%;
@@ -502,7 +484,6 @@ footer{
 }
 hr{
    margin: 30px 8rem;
-  /* color: rgba(255, 255, 255, 0.5); */
   margin-bottom: 25px;
 }
 .end{
@@ -521,7 +502,7 @@ hr{
 }
 
 
-                    /* media quary for mobile device */
+                    /* media query for mobile device */
 
 
 @media screen and (max-width:576px){
@@ -584,7 +565,7 @@ hr{
     .banner-card1{
         width: 150px;
     height: 70px;
-        top: 38%;
+        top: 42%;
         left: 7%;
     }
     .banner-card1 .text h3{
@@ -601,7 +582,7 @@ hr{
         width: 145px;
         height: 70px;
         top: 5%;
-        left: 70%;
+        left: 68%;
     }
     .banner-card2 h1{
         font-size: 28px;
@@ -807,7 +788,6 @@ hr{
     hr{
        margin: 80px 1rem;
        margin-bottom: 40px;
-      /* color: rgba(255, 255, 255, 0.5); */
     }
     .end{
         font-size: 15px;
